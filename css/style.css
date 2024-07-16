@@ -112,6 +112,13 @@
 		letter-spacing: 3px;
 	}
 }
+@media (max-width: 404px) {
+	.errorText {
+		padding: 0 45px;
+		font-size: 14px;
+		letter-spacing: 3px;
+	}
+}
 
 .mainText {
 	font-size: 26px;
@@ -129,6 +136,13 @@
 
 @media (max-width: 479px) {
 	.mainText {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 404px) {
+	.mainText {
+		letter-spacing: 3px;
 		font-size: 16px;
 	}
 }
